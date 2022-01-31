@@ -1,0 +1,1 @@
+g++ lesson_2.cpp && cls && a.exe
