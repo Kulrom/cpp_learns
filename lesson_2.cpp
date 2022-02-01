@@ -3,7 +3,7 @@
 #include <ctime>
 using namespace std;
 
-const int SIZE = 10;
+const int SIZE = 100000;
 
 void task_1()
 {
@@ -66,9 +66,8 @@ void task_3()
             max = arr_3[i];
         }
     }
-    for (int i = 0; i < SIZE; i++){
-        cout << arr_3[i] << "  ";
-    }
+
+    cout << "Число элементов массива: " << SIZE;
     cout << "\nСреднее арифметическое: " << sum / SIZE << endl;
     cout << "Минимальное значение: " << min << endl;
     cout << "Максимальное значение: " << max << endl;
